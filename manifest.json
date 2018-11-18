@@ -1,0 +1,34 @@
+{
+  "name": "Reduce AD",
+  "version": "1.1",
+  "description": "A browser plugin that can reduce your webpage ads.",
+  "permissions": [
+    "bookmarks",
+    "https://www.google.co.uk/*"
+  ],
+  "browser_action": {
+      "default_title": "Reduce AD",
+      "default_icon": "icon.png"
+  },
+  "content_scripts": [
+		{
+      "run_at": "document_start",
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": ["css/index.css"],
+      "all_frames" : true
+    },
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://www.baidu.com/*",
+        "https://log-gd9.tools.vipshop.com/*"
+      ],
+      "js": ["js/index.js"],
+      "all_frames" : true
+		}
+	],
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

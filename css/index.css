@@ -1,0 +1,98 @@
+/* weibo.com */
+body div[feedtype="ad"] {
+    display: none!important;
+}
+body div[ad-data]{
+    display: none!important;
+}
+/* www.baidu.com */
+body #content_left>div:not(.c-container), body #content_left>div:not(.c-container)>a, body #content_left>div:not(.c-container)>div{
+    display: none!important;
+}
+body div.spread-wrap{
+    display: none!important;
+}
+
+/* www.w3school.com.cn */
+body div[id="ad_head"], body div[id="ad"], body #maincontent>div>ins.adsbygoogle{
+    display: none!important;
+}
+
+/* www.cnblogs.com */
+body .c_ad_block, #cnblogs_a1, #cnblogs_b1, #cnblogs_b2, #cnblogs_b3{
+    display: none!important;
+}
+
+/* juejin.im */
+body aside div.banner.section.shadow.banner-section{
+    display: none!important;
+}
+
+/* www.dytt8.net */
+body>a, body #header #headerright #about iframe, body .bd2 .bd4l iframe, body .bd2 .bd6 ul iframe, body>div[id^="cs_DIV_"], body>div[id^="cs_CFdivdlST_"], body #Zoom>span>a{
+    display: none!important;
+}
+
+/* blog.csdn.net */
+body aside div[id^="cpro_"], body #article_ad, body div[id^="dmp_ad_"], body div[id^="kp_box_"], body #adContent, body iframe[src^="https://pos.baidu.com/"], body div.recommend-ad-box{
+    display: none!important;
+}
+
+/* www.fastsoso.cn */
+body #notice, body>div.modal-backdrop{
+    display: none!important;
+}
+body.modal-open{
+    overflow: auto!important;
+}
+/* www.163.com */
+body div.mod_index_ad, body div.index_top_ad, body div.head_ad, body div.hp_textlink_ad, body div.mod_r_ad, body div.mod_ad_text {
+    display: none!important;
+}
+/* mail.163.com */
+body #dvNavTree li[role="complementary"],body .gWel-bottom, body .frame-main div[id～=“AdDiv”].tN0.nui-closeable, body .frame-main div.xd0.nui-closeable[id$="FooterDiv"] {
+    display: none!important;
+}
+
+/* *.qq.com */
+body div[adconfig_lview]{
+    display: none!important;
+}
+
+/* https://www.autohome.com.cn */
+body div.monkey-row, body div.union-ad-placeholder,body div.monkey, body div.athm-title__ad, body div.adv, body div.adRight{
+    display: none!important;
+}
+
+/* sina.com.cn */
+body ins[data-ad-pdps],body div.sinaad-toolkit-box {
+    display: none!important;
+}
+
+/* jianshu.com */
+body div#fixed-ad-container, body .youdao-img-ad, body .youdao-flow-ad{
+    display: none!important;
+}
+
+/* http://tool.oschina.net/ */
+body ins[data-ad-client]{
+    display: none!important;
+}
+
+/* https://www.huxiu.com/ */
+body div.top-box-ad-banner, body div.right-ad-box, body div.ad-wrap{
+    display: none!important;
+}
+
+/* *.chinaz.com/ */
+body iframe[onload^="BAIDU_SSP"], body div#topTxt.topTsRight, body div#navAfter, body #loc.Mnav-right02,body #centerImg.ToolsWrap,body #bottomImg.fotatxtd,body div#centerTxt, body div#toolsIntro, body div.topTsCenter.fr, body div[id^="BAIDU_DUP"], body div#imgbd #bgad, body ul.sideAdList.fr, body div.plate-layout.img_wrap_l.goTop,body div.txtAdBox, body div#ad_text,body div#ad_headerbanner, body div#overlay, body a[title="NordVPN Special VPN"]{
+    display: none!important;
+}
+body div#imgbd{
+    background-image: none!important;
+}
+
+/* iqiyi.com */
+body div.result_ad_wrap, body div.qy-mod-ad{
+    display: none!important;
+}
