@@ -143,3 +143,23 @@ body img[alt="广告"]{
 body iframe[src^="https://ad.doubanio.com"]{
     display: none!important;
 }
+
+/* fang.com */
+body div.add300, body div.add1300{
+    display: none!important;
+}
+
+/* qunar.com */
+body img[id^="ad_"], body div.ad_wrapperadv1{
+    display: none!important;
+}
+
+/* zhibo8.cc */
+body div[class^="ad_box_"] {
+    display: none!important;
+}
+
+/* qidian.com */
+body div#topGameOp[data-l1], body div#tr-banner[data-l1], body div#banner-two[data-l1], body div.games-op-wrap[data-l1], body div.right-op-wrap.mb10[data-l1] {
+    display: none!important;
+}
