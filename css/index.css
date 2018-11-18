@@ -6,7 +6,7 @@ body div[ad-data]{
     display: none!important;
 }
 /* baidu.com */
-body #content_left>div:not(.c-container), body #content_left>div:not(.c-container)>a, body #content_left>div:not(.c-container)>div, body div.spread-wrap, body div#detail_adm_right{
+body #content_left>div:not(.c-container), body #content_left>div:not(.c-container)>a, body #content_left>div:not(.c-container)>div, body div.spread-wrap, body div#detail_adm_right, body div.right-ad{
     display: none!important;
 }
 
@@ -72,7 +72,7 @@ body ins[data-ad-pdps],body div.sinaad-toolkit-box {
 }
 
 /* jianshu.com */
-body div#fixed-ad-container, body .youdao-img-ad, body .youdao-flow-ad{
+body div#fixed-ad-container, body div.youdao-img-ad, body div.youdao-flow-ad, body div#note-fixed-ad-container{
     display: none!important;
 }
 
@@ -131,5 +131,15 @@ body div[id^="adv_"], body div[id^="iis3_dif_"]{
 
 /* ctrip.com */
 body div.mod-ads, body div#fl_wrap_default, body div#_rcmd.recommend_mod{
+    display: none!important;
+}
+
+/* zhihu.com */
+body img[alt="广告"]{
+    display: none!important;
+}
+
+/* douban.com */
+body iframe[src^="https://ad.doubanio.com"]{
     display: none!important;
 }
