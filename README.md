@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="144" src="https://raw.githubusercontent.com/w3cmark/reduce-ad/icon.png">
+    <img width="144" src="https://raw.githubusercontent.com/w3cmark/reduce-ad/master/icon.png">
 </p>
 
 # Reduce AD
