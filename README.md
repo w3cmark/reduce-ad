@@ -4,9 +4,9 @@
 
 # Reduce AD
 
-### 一个可以减少广告的Chrome插件
+> A browser plugin that can reduce your webpage ads.
 
-## 涉及的网站
+## Supported sites
 
 + weibo.com
 
