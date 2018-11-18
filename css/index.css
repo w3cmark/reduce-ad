@@ -11,7 +11,7 @@ body #content_left>div:not(.c-container), body #content_left>div:not(.c-containe
 }
 
 /* hao123.com */
-body div[monkey="casual-topbannerad"], body div[monkey="treasure-game"], body div#hao123-guesslike, body div[monkey="footer-banner2"], body div[monkey="shopping"]{
+body div[monkey="casual-topbannerad"], body div[monkey="treasure-game"], body div#hao123-guesslike, body div[monkey="footer-banner2"], body div[monkey="shopping"], body div.wg-adv{
     display: none!important;
 }
 
@@ -116,5 +116,20 @@ body div[data-type="sign"], body div[data-type="dyrec"], body div.Bottom-ad{
 
 /* bilibili.com */
 body div#slide_ad{
+    display: none!important;
+}
+
+/* sohu.com */
+body div[data-god-id],body span[data-god-id], body div.god-wrapper.area.clearfix, body div.specialAdFlag{
+    display: none!important;
+}
+
+/* ifeng.com */
+body div[id^="adv_"], body div[id^="iis3_dif_"]{
+    display: none!important;
+}
+
+/* ctrip.com */
+body div.mod-ads, body div#fl_wrap_default, body div#_rcmd.recommend_mod{
     display: none!important;
 }
