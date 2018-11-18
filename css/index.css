@@ -62,7 +62,7 @@ body div[adconfig_lview]{
 }
 
 /* autohome.com.cn */
-body div.monkey-row, body div.union-ad-placeholder,body div.monkey, body div.athm-title__ad, body div.adv, body div.adRight{
+body div.monkey-row, body div.union-ad-placeholder,body div.athm-title__ad, body div.adv, body div.adRight, body div.advbox{
     display: none!important;
 }
 
@@ -101,5 +101,20 @@ body div.result_ad_wrap, body div.qy-mod-ad{
 
 /* zhangxinxu.com */
 body div#adSlideX div.da_inner, body div#daITxz2, body div#topAdOut{
+    display: none!important;
+}
+
+/* youku.com */
+body div[id^="module_ad"],body div.yk-AD-tong, body div[data-adid]{
+    display: none!important;
+}
+
+/* douyu.com */
+body div[data-type="sign"], body div[data-type="dyrec"], body div.Bottom-ad{
+    display: none!important;
+}
+
+/* bilibili.com */
+body div#slide_ad{
     display: none!important;
 }
