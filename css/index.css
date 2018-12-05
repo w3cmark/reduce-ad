@@ -31,7 +31,7 @@ body aside div.banner.section.shadow.banner-section{
 }
 
 /* dytt8.net */
-body>a, body #header #headerright #about iframe, body .bd2 .bd4l iframe, body .bd2 .bd6 ul iframe, body>div[id^="cs_DIV_"], body>div[id^="cs_CFdivdlST_"], body #Zoom>span>a{
+body #header #headerright #about iframe, body .bd2 .bd4l iframe, body .bd2 .bd6 ul iframe, body>div[id^="cs_DIV_"], body>div[id^="cs_CFdivdlST_"], body #Zoom>span>a{
     display: none!important;
 }
 
@@ -161,5 +161,10 @@ body div[class^="ad_box_"] {
 
 /* qidian.com */
 body div#topGameOp[data-l1], body div#tr-banner[data-l1], body div#banner-two[data-l1], body div.games-op-wrap[data-l1], body div.right-op-wrap.mb10[data-l1] {
+    display: none!important;
+}
+
+/* ebay.com */
+body div[data-google-query-id], body > div.a_fl.a_cb, body > div.a_fr.a_cb, body > div.a_cn, body > div.a_fl{
     display: none!important;
 }
