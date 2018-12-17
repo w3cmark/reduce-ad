@@ -11,7 +11,7 @@ body #content_left>div:not(.c-container), body #content_left>div:not(.c-containe
 }
 
 /* hao123.com */
-body div[monkey="casual-topbannerad"], body div[monkey="treasure-game"], body div#hao123-guesslike, body div[monkey="footer-banner2"], body div[monkey="shopping"], body div.wg-adv{
+body div[monkey="casual-topbannerad"], body div[monkey="treasure-game"], body div#hao123-guesslike, body div[monkey="footer-banner2"], body div[monkey="shopping"], body div.wg-adv, body div#wp #framed6kq51_left, body div#wp #diynavtop, body>div[align="center"]>center{
     display: none!important;
 }
 

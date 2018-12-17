@@ -61,6 +61,7 @@ const formatDragonflyLogs = function() {
             }
             if(viewer_span[6]) {
                 let value = viewer_span[6].innerHTML;
+                // console.log(value)
                 viewer_span[6].innerHTML = decodeURIComponent(value);
                 // let html = viewer_span[6].innerHTML;
                 // if(html) {
