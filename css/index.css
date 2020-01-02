@@ -26,7 +26,7 @@ body .c_ad_block, #cnblogs_a1, #cnblogs_b1, #cnblogs_b2, #cnblogs_b3{
 }
 
 /* juejin.im */
-body aside div.banner.section.shadow.banner-section{
+body aside div.banner.section.shadow.banner-section, body #juejin>div.recommend-box{
     display: none!important;
 }
 
@@ -166,5 +166,23 @@ body div#topGameOp[data-l1], body div#tr-banner[data-l1], body div#banner-two[da
 
 /* ebay.com */
 body div[data-google-query-id], body > div.a_fl.a_cb, body > div.a_fr.a_cb, body > div.a_cn, body > div.a_fl{
+    display: none!important;
+}
+
+/* jb51.net */
+body #page #mainBody div.tonglan, body #page #mainBody div.softsfwtl, body .ad-widget-imageplus-sticker{
+    display: none!important;
+}
+
+/* toutiao.com */
+body div[ad_name][ad-cursor], body .col-sm-5 #ps32-container,body #adxp, body #k7i977, body iframe[src^="//adserver."], body iframe[src^="https://syndication"] {
+    display: none!important;
+}
+body #hd-rightColVideoPage, body div.wrapper.hd + div, body #player + div{
+    display: none!important;
+}
+
+/* www.y2mate.com */
+body #ads_spot1, body #result div.hidden-xs, body .modal-dialog #ads-place-download, body .modal-dialog #share-place-download{
     display: none!important;
 }
